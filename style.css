@@ -1,0 +1,152 @@
+*
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+
+
+.navigation {
+    background-color: blue;
+    padding: 15px;
+}
+
+
+.logo {
+    color: white;
+    float: left;
+}
+
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navigation::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.home {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 100px;
+}
+
+
+.footer {
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+
+.box {
+    width: 20%;
+}
+
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box li {
+    margin-bottom: 15px;
+}
+
+
+.social li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social a {
+    color: lightblue;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    font-family: "Times New Roman", serif;
+}
+
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: "Times New Roman", serif;
+}
+
+
+.copy {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.service-list {
+    list-style: none;
+}
+
+.about-image {
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+.service-image {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.home p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.home h1,
+.home h2 {
+    color: darkblue;
+}
+
+.home-background {
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("background-photo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 120px;
+
+    color: white;
+}
